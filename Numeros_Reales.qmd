@@ -1,6 +1,6 @@
 ---
 title: Cálculo Diferencial
-subtitle: Numero Reales 
+subtitle: Números Reales 
 format:
   revealjs: 
     theme: [default, clean.scss]
@@ -385,4 +385,163 @@ es un número muy [**próximo**]{.alert} a cero.
 
 :::
 
+## [**Entorno de un punto en la recta real (continua...)**]{.bg style="--col:#ffff00"} {.scrollable}
+
+::: {.bg style="background-color:#e6f7ff; padding:0.75em; border-left:6px solid #31BAE9; border-radius: 8px;"}
+
+Si **$c \in \mathfrak{R}$** y **$r>0$**, el [**entorno**]{.alert} de centro en "**c**" y radio "**r**" se denota **$B_r(c)$**, y lo froman los puntos "**x**" cuya distancia a "**c**" es inferior a "**r**".
+:::
+
+$$
+B_r(c)=\{ x \in \mathfrak{R} \mid |x-c|<r \}=(c-r,c+r)
+$$
+
+::: center
+![](Images/recta-6.png)
+:::
+
+::: columns
+
+::: {.fragment}
+::: {.column width="50%"}
+::: {.bg style="background-color:#e6f7ff; padding:0.75em; border-left:6px solid #31BAE9; border-radius: 8px;"}
+El entorno de centro en "**5**" y radio **$0.02$** lo forman los "**x**" tales que **$|x-5|<0.02$**, o sea, son los puntos de intervalo **$(5-0.02, 5+0.02) \equiv (4.98,5.02)$**.
+:::
+:::
+
+
+::: {.column width="50%"}
+![](Images/recta-7.png)
+:::
+:::
+
+::: columns
+
+::: {.fragment}
+::: {.column width="50%"}
+::: {.bg style="background-color:#e6f7ff; padding:0.75em; border-left:6px solid #31BAE9; border-radius: 8px;"}
+Del intervalo **$(4.98,5]$** se dice que es el [**semientorno izquierdo**]{.alert} de "**$5$**" y radio **$0.02$**.
+:::
+:::
+
+::: {.column width="50%"}
+![](Images/recta-8.png)
+:::
+
+:::
+
+::: columns
+
+::: {.fragment}
+::: {.column width="50%"}
+::: {.bg style="background-color:#e6f7ff; padding:0.75em; border-left:6px solid #31BAE9; border-radius: 8px;"}
+Del intervalo **$[5,5.02)$** se dice que es el [**semientorno derecho**]{.alert} de "**$5$**" y radio **$0.02$**.
+:::
+:::
+
+::: {.column width="50%"}
+![](Images/recta-9.png)
+:::
+:::
+
+:::
+:::
+:::
+
 ## [**Entorno de un punto en la recta real**]{.bg style="--col:#ffff00"} {.scrollable}
+
+$$
+B_r(c)=\{ x \in \mathfrak{R} \mid |x-c|<r \}=(c-r,c+r)
+$$
+
+::: center
+![](Images/recta-6.png)
+:::
+
+::: {.fragment}
+::: {.bg style="background-color:#e6f7ff; padding:0.75em; border-left:6px solid #31BAE9; border-radius: 8px;"}
+Si de **$B_r(c)$** [**eliminamos**]{.alert} el propio "**$c$**", obtenemos el [**entorno reducido**]{.alert} [**de centro en**]{.alert}  "**$c$**" [**y radio**]{.alert} "**$r$**", que denotamos **$B^*_r(c)$**:
+:::
+
+$$
+B^*_r(c)=\{ x \in \mathfrak{R} \quad 0 < \mid |x-c|< r \}=(c-r,c) \cup (c,c+r)
+$$
+
+::: center
+![](Images/recta-6-1.png)
+:::
+
+:::
+
+
+::: {.fragment}
+::: {.bg style="background-color:#e6f7ff; padding:0.75em; border-left:6px solid #31BAE9; border-radius: 8px;"}
+El entorno $\color{blue}{reducido}$ de centro en "**$5$**" y radio **$0.02$** lo froman los **x** tales que **$0<|x|<0.02$**; o sea, tales que **$x \in (4.98,5) \cup (5,5.02)$**.
+:::
+
+::: center
+![](Images/recta-11.png)
+:::
+
+::: {.bg style="background-color:#e6f7ff; padding:0.75em; border-left:6px solid #31BAE9; border-radius: 8px;"}
+Del intervalo **$(4.98,5)$** se dice que es el $\color{blue}{\text{semientorno reducido izuierdo}}$ de "**$5$**" y radio **$0.02$**; el intervalo **$(5,5.02)$** es el [**semientorno**]{.alert} reducido derecho de "**$5$**" y radio **$0.02$**
+:::
+:::
+
+## [**Entorno de un punto en la recta real (continua...)**]{.bg style="--col:#ffff00"} {.scrollable}
+
+De todo intervlo **$(a,+\infty)$** se dice que es un [**entorno**]{.alert} de **$+\infty$**.
+
+![](Images/recta-12.png)
+
+[**Por ejemplo**]{.alert}, el intervalo **$(6,+\infty)$** es entorno de **$+\infty$**, lo mismo que el intervalo **$(-15,+\infty)$**
+
+::: {.fragment}
+De todo intervalo $(-\infty, b)$ se dice que es un entorno de $-\infty$.
+
+![](Images/recta-13.png)
+
+[**Por ejemplo**]{.alert}, el intervalo **$(- \infty,7)$** es [**entorno**]{.alert} de **$-\infty$**, lo mismo que el intervalo **$(-\infty,-17)$**.
+:::
+
+::: {.fragment}
+
+::: {.bg style="background-color:#e6f7ff; padding:0.75em; border-left:6px solid #31BAE9; border-radius: 8px;"}
+**Que quede Claro!**
+
+En estos dos casos la [**palabra**]{.alert} reducido no quita ni pone nada a la palabra [**entorno**]{.alert} pues como **$+\infty$** no es un numero, hablar de un entorno de $+\infty$ es igual que hablar de un [**entorno reducido**]{.alert} de **$+\infty$**, y lo mismo con **$-\infty$**. 
+:::
+:::
+
+## [**Propiedades de los números reales: $\mathfrak{R}$**]{.bg style="--col:#ffff00"} {.scrollable}
+
+Supondremos la existencia de un conjunto $\mathbb{R}$ de números en el que hay definidas dos operaciones, suma y producto, con las siguientes propiedades:
+
+::: {.bg style="background-color:#e6f7ff; padding:0.75em; border-left:6px solid #31BAE9; border-radius: 8px;"}
+
+**Propiedades de la suma:**
+
+  -   Conmutativa: $a+b= b+a$, para todos los $a,b \in \mathbb{R}$
+      
+  -   Asociativa: $a+(b+c) = (a+b)+c$ para todos los $a,b,c \in \mathbb{R}$
+
+  -   Existe un elemento neutro, $0 \in \mathbb{R}$,  para la suma: $a+0=a=0+a$.
+      
+  -   Para cada $a \in \mathbb{R}$ existe un elemento $-a \in \mathbb{R}$, simétrico de $a$, tal que $a+(-a)=0=(-a)+a$
+:::
+## [**Propiedades de los números reales: $\mathfrak{R}$**]{.bg style="--col:#ffff00"} {.scrollable}
+
+::: {.bg style="background-color:#e6f7ff; padding:0.75em; border-left:6px solid #31BAE9; border-radius: 8px;"}
+
+**Propiedades del producto de números reales:**
+      
+  -   Conmutativa: $a\cdot b=b \cdot a$, para todos los $a,b \in \mathbb{R}$.
+      
+  -   Asociativa: $a \cdot (b \cdot c) = (a\cdot b)\cdot c$ para todos los $a,b,c \in \mathbb{R}$
+      
+  -   Existe un elemento neutro, $1 \in \mathbb{R}$,  para el producto: $a\cdot1=a=1\cdot a$.
+      
+  -   Para cada $a \in \mathbb{R}$, $a\neq 0$, existe un elemento $\dfrac{1}{a} = a^{-1} \in \mathbb{R}$, inverso de $a$, tal que $a \cdot a^{-1}=1=a ^{-1}\cdot a$
+      
+  -   El producto es distributivo respecto de la suma: $a\cdot (b+c) = a\cdot b + a \cdot c$ para todos los $a,b,c \in \mathbb{R}$.
+  :::
