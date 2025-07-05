@@ -45,7 +45,7 @@ Combinaremos la teoría con la práctica, usando **Python**, uno de los lenguaje
 
 Mi meta es transformar la enseñanza en línea, derribando barreras y compartiendo el conocimiento de manera abierta. Por ello, tendrán **acceso total a todo el código fuente en Google Colab** desde el primer minuto. Además, todas las **transparencias y material teórico estarán disponibles en nuestro repositorio de GitHub**, para que puedan consultar la teoría, los ejemplos y la programación en cualquier momento.
 
-Pueden consultar todo el material complementario en nuestro [Github.io](https://joanby.github.io/curso-numerico-2/), que es un ejemplo de cómo deseo que experimenten este curso: con **acceso irrestricto a todos los recursos**.
+Pueden consultar todo el material complementario en nuestro [Github.io](https://elvis102.github.io/Calculo-Diferencal-IA-Utmach/), que es un ejemplo de cómo deseo que experimenten este curso: con **acceso irrestricto a todos los recursos**.
 
 Este es el momento de adquirir estas habilidades sin rodeos. ¡Aprovechen esta oportunidad para que su capacidad de programación y comprensión matemática dé un salto brutal y se conviertan en los **candidatos perfectos** que las empresas están buscando!
 
