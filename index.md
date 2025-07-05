@@ -1,4 +1,4 @@
-# Cálculo I y Aplicaciones con Python - Parte 1 Cálculo diferencial
+# Cálculo I  - Parte 1 Cálculo diferencial
 
 ### Con Elvis Mauricio Sánchez Rogel
 
