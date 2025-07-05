@@ -2,7 +2,7 @@
 
 ### Con Elvis Mauricio Sánchez Rogel
 
-¡Absolutamente! Reorganicemos y enfoquemos el texto para reflejar la visión de un docente de cálculo diferencial en la Universidad Técnica de Machala, enfatizando la relevancia para Ciencia de Datos y Machine Learning, e inspirando a los estudiantes.
+¡Absolutamente! Reorganicemos y enfoquemos el texto para reflejar la visión de un docente de cálculo diferencial en la Universidad Técnica de Machala, enfatizando la relevancia para Ciencia de Datos y Machine Learning, e inspirando a los estudiantes..
 
 ---
 
