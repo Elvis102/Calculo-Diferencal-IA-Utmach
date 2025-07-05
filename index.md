@@ -1,6 +1,6 @@
 ## Métodos Numéricos con Python - Parte 1 Cálculo Numérico
 
-### Con Juan Gabriel Gomila y Arnau Mir
+### Con Elvis Sanchez Rogel
 
 Materiales complementarios del curso disponible en   [Udemy](https://www.udemy.com/course/draft/3739518/?couponCode=92A16B706AA151705D35).
 
